@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -45,4 +47,10 @@ dependencies {
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+
+    implementation 'com.github.stephanenicolas.toothpick:ktp:3.1.0'
+    kapt 'com.github.stephanenicolas.toothpick:toothpick-compiler:3.1.0'
+
+    //highly recommended
+    testImplementation 'com.github.stephanenicolas.toothpick:toothpick-testing-junit5:3.1.0'
 }
