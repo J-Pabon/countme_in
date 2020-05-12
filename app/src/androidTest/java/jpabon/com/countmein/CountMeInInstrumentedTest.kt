@@ -11,7 +11,7 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleInstrumentedTest {
+class CountMeInInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
