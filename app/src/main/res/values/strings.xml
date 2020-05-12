@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CountMeIn</string>
+    <string name="text_event_code">Event Code</string>
 </resources>
