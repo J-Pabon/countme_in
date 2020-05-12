@@ -53,4 +53,24 @@ dependencies {
 
     //highly recommended
     testImplementation 'com.github.stephanenicolas.toothpick:toothpick-testing-junit5:3.1.0'
+
+    //Android Architecture Components
+    def lifecycle_version = "2.2.0"
+    def arch_version = "2.1.0"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+
+    // Saved state module for ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+
+    // Annotation processor
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    // optional - Test helpers for LiveData
+    testImplementation "androidx.arch.core:core-testing:$arch_version"
 }
