@@ -48,11 +48,9 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
 
-    implementation 'com.github.stephanenicolas.toothpick:ktp:3.1.0'
-    kapt 'com.github.stephanenicolas.toothpick:toothpick-compiler:3.1.0'
-
-    //highly recommended
-    testImplementation 'com.github.stephanenicolas.toothpick:toothpick-testing-junit5:3.1.0'
+    // Koin for Ktor Kotlin
+    def koin_version = '2.1.5'
+    implementation "org.koin:koin-ktor:$koin_version"
 
     //Android Architecture Components
     def lifecycle_version = "2.2.0"
