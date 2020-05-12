@@ -48,13 +48,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
 
-    //Espresso
-
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test:rules:1.2.0'
-
     // Koin for Android
     def koin_version = '2.1.5'
 
