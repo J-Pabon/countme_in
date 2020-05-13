@@ -1,8 +1,7 @@
 package jpabon.com.countmein
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import jpabon.com.countmein.databinding.ActivityCountMeInBinding
 
 class CountMeInActivity : AppCompatActivity() {
