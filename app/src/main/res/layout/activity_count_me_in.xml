@@ -6,33 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".CountMeInActivity">
 
-    <EditText
-        android:id="@+id/etEventCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text = "@string/text_event_code"
-        android:autofillHints="@string/text_event_code"
-        android:inputType="text" />
-
-    <Button
-        android:id="@+id/btnSearchEvent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="@id/etEventCode"
-        app:layout_constraintTop_toBottomOf="@id/etEventCode" />
-
-    <TextView
-        android:id="@+id/tvSearchResultMessage"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnSearchEvent"
-        android:visibility="invisible" />
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

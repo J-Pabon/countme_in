@@ -13,8 +13,6 @@ class CountMeInActivity : AppCompatActivity() {
         binding = ActivityCountMeInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnSearchEvent.setOnClickListener {
-            binding.tvSearchResultMessage.text = "No events found"
-        }
+
     }
 }
