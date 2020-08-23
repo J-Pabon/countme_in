@@ -1,4 +1,4 @@
-package jpabon.com.countmein
+package jpabon.com.countmein.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

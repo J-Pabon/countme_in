@@ -7,7 +7,7 @@ import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
-import org.hamcrest.core.AnyOf.anyOf
+import jpabon.com.countmein.ui.CountMeInActivity
 import org.hamcrest.core.IsNot.not
 
 import org.junit.Test
